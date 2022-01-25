@@ -1,0 +1,17 @@
+{
+  "name": "ecg_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "serialport": "^9.2.8",
+    "socket.io": "^2.4.1"
+  }
+}
